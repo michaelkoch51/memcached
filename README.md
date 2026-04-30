@@ -40,11 +40,11 @@
 Команды:  
 bash  
 
-''' set user:name "Michael"  
+set user:name "Michael"  
 set status "learning"  
 keys *  
 mget user:name status  
-'''
+
 
 Скриншот выполнения:  
 ![Запись данных в Redis](https://github.com/user-attachments/assets/894125ab-d3a0-4022-8706-99cc5dab4cd5)
