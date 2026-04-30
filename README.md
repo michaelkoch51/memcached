@@ -39,10 +39,11 @@
 Работа с Redis производилась через консольный клиент redis-cli. Были созданы ключи для хранения имени пользователя и текущего статуса обучения. Все данные успешно извлечены из базы.  
 Команды:  
 bash  
-''' set user:name "Michael"
-set status "learning"
-keys *
-mget user:name status
+
+''' set user:name "Michael"  
+set status "learning"  
+keys *  
+mget user:name status  
 '''
 
 Скриншот выполнения:  
